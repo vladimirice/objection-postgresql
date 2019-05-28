@@ -4,7 +4,7 @@ const { Model } = require('objection');
 const Cmt = require('./models/cmt');
 
 // This cause an error
-const { ContainerBuilder } = require('node-dependency-injection');
+require('collections');
 
 const config = {
   "client": "pg",

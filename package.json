@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "collections": "^5.1.8",
     "knex": "^0.16.5",
-    "node-dependency-injection": "^2.3.3",
     "objection": "^1.6.9",
     "pg": "^7.11.0"
   }
