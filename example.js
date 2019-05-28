@@ -3,18 +3,8 @@ const { Model } = require('objection');
 
 const Cmt = require('./models/cmt');
 
-const Sequelize = require('sequelize');
-
+// This cause an error
 const { ContainerBuilder } = require('node-dependency-injection');
-
-// Option 1: Passing parameters separately
-const sequelize = new Sequelize('database', 'username', 'password', {
-  host: 'localhost',
-  dialect: 'postgres'
-});
-
-// Option 2: Passing a connection URI
-// const sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname');
 
 const config = {
   "client": "pg",
